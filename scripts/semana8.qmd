@@ -1,0 +1,27 @@
+---
+title: "Semana 6"
+format: html
+editor: visual
+---
+
+## CARPETA SEMANA 8: COMO INSTALAR UN PAQUETE EN RSTUDIO-REALIZAR UJN GRAFICO ESTADISTICO (HISTOGRAMA)
+
+1.       EN LA CONSOLA DE RSTUDIO COLOCAMOS \# PARA COLOCAR UN TEXTO
+
+```{r}
+install.packages("fdth")
+library(fdth)
+```
+
+2.   CREAMOS EL HISTOGRAMA SELECCIONAMOS LA COLUMNA CON LA CUAL TRABAJAR:
+
+    ```{r}
+    apertura<- data$Edad
+
+    ```
+
+3       COLOCAMOS EL CODIGO HIST PARA CREAR EL HISTOMAGRAMA
+
+```{r}
+hist(apertura)
+```

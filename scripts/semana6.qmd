@@ -1,0 +1,19 @@
+---
+title: "Semana 6"
+format: html
+editor: visual
+---
+
+## CARPETA SEMANA 6: CÓMO LIMPIAR DATOS PARA USAR UNA COLUMNA ESPECÍFICA
+
+1.  PRIMER CODIGO
+
+```{r}
+data <- read_csv("C:/Users/Tatiana/Downloads/s02_treat_artritis.csv")
+```
+
+2:LIMPIAR DATA
+
+```{r}
+data_limpia<- data[!is.na(data$CDAI),]
+```

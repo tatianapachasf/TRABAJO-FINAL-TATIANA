@@ -1,0 +1,25 @@
+---
+title: "Semana 10"
+format: html
+editor: visual
+---
+
+## CARPETA SEMANA 10: CALCULAR LAS MEDIDAS DE TENDENCIA CENTRAL(MEDIA ARITMÉTICA, MEDIANA, MODA)
+
+1.  PRIMERO HALLAMOS LA MEDIA
+
+    ```{r}
+    mean(data$Edad)
+    ```
+
+2.  HALLAMOS LA MEDIANA
+
+    ```{r}
+    median(data$Edad)
+    ```
+
+3.  HALLAMOS LA MODA
+
+    ```{r}
+    mode_Edad<- names(sort(table(data$Edad),decreasing = TRUE))
+    ```

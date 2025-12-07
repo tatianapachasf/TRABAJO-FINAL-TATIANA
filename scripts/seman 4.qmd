@@ -1,0 +1,16 @@
+---
+title: "TATIANA PROYECTO"
+format: html
+editor: visual
+---
+
+## Descargar archivo de github
+
+![5. SELECCIONAMOS NUESTRO ARCHIVO CSV\
+![](images/clipboard-2600593014.png)](images/clipboard-1262843567.png)
+
+6\. DESCARGAMOS EL ARCHIVO:
+
+![7. VERIFICAMOS QUE LA DESCARGA SE REALIZO](images/clipboard-1432166314.png)
+
+![](images/clipboard-3009563319.png)
